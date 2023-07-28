@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="./popup.css" />
 <link rel="stylesheet" href="./daisyui.css" />
 
+
+
 <body>
     <div
         class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
@@ -31,12 +33,12 @@
                     <circle cx="1" cy="1" r="1" />
                 </svg>随机内容生成工具
             </p>
-            <a href="#"
-                class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Register
-                now <span aria-hidden="true">&rarr;</span></a>
+            <a href="https://github.com/Yer11214/Rushed"
+                class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">GitHub<span
+                    aria-hidden="true">&rarr;</span></a>
         </div>
         <div class="flex flex-1 justify-end">
-            <button type="button" class="-m-3 p-3 focus-visible:outline-offset-[-4px]">
+            <button type="button" id="close" class="-m-3 p-3 focus-visible:outline-offset-[-4px]">
                 <span class="sr-only">Dismiss</span>
                 <svg class="h-5 w-5 text-gray-900" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path
@@ -46,19 +48,12 @@
         </div>
     </div>
     <div id="app">
-
-        <div class="random-item">
-            <div class="label">随机生成手机号</div>
-            <input disabled type="text" placeholder="Type here" class="input input-bordered input-sm  max-w-xs" />
-            <button class="btn btn-xs">生成并复制</button>
-        </div>
     </div>
 </body>
 
-<script src="./popup.js"></script>
-<script src="./tailwindcss.js"></script>
-<script>
 
-</script>
+<script src="./tailwindcss.js"></script>
+
+<script src="./popup.js"></script>
 
 </html>
